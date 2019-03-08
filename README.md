@@ -1,7 +1,7 @@
 <h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Intro to Programming Nanodegree</a></h1>
 
 Nanodegree Notes:
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Notes &amp; Resources</a> 
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View My Notes &amp; Resources</a> 
 
 <p>Projects for my Udacity Intro to Programming Nanodegree (IPND)</p>
 
