@@ -1,0 +1,55 @@
+/*Main CSS*/
+#section1 {
+  padding: 2% 2% 40% 2%;
+}
+
+#container {
+  margin: 0px 0px 0px 0px;
+  /*<!-- top,right,bottom,left -->*/
+}
+
+td {
+  padding: 15px;
+  border: 1px solid #333;
+}
+
+thead {
+  background-color: #333;
+  border: 1px solid #333;
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+}
+
+/*li {
+  margin-top: 10px;
+}*/
+
+mark {
+  color: Red;
+  background-color: white;
+}
+
+/*Main CSS*/
+body {
+  font-family: "verdana";
+}
+
+.colored-section {
+  background-color: #dfe2e2;
+}
+
+#first-card-block {
+  padding: 3% 2% 40% 2%;
+}
+
+/*Navigation Bar*/
+.nav-item {
+  padding: 5px 5px;
+}
+
+.nav-link {
+  /*color: #fff;*/
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
