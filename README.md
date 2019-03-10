@@ -9,6 +9,7 @@ Nanodegree Notes:
 
 <h4>Lab 1: Intro to HTML</h4>
 <p>Get some early feedback on what you're learning within the first week of your Nanodegree experience.</p>
+<a href="https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html">View Lab</a>
 <a href="http://fswylie01.github.io/udacity-ipnd-Lab_1/" rel="nofollow">View Lab</a>
 
 <h4>Project 1: Intro to CSS - Animal Trading Card Layout</h4>
