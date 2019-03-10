@@ -8,16 +8,18 @@ Nanodegree Notes:
 <p>Projects for my Udacity Intro to Programming Nanodegree (IPND)</p>
 
 <h4>Lab 1: Intro to HTML</h4>
-<p>Get some early feedback on what you're learning within the first week of your Nanodegree experience.</p>
-<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html">View Lab</a>
+<p>Compile lesson notes using HTML and get some early feedback during the first week.</p>
+<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html">View Lab Notes</a>
 
 <h4>Project 1: Intro to CSS - Animal Trading Card Layout</h4>
 <p>Built using HTML and CSS, this project demonstrates knowledge of basic website design.<p>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Project</a> 
+<a href="#">View Project Notes</a>
+<a href="#">View Card Project</a> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Project</a> 
+<a href="#">View Project Notes</a>
+<a href="#">View Project</a> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
