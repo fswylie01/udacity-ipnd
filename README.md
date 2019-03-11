@@ -20,15 +20,17 @@ View Animal Card</a>
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
 <a href="#">View Notes</a></br>
-<a href="#">View Project</a> 
+<a href="#">View Adventure Game</a> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Project</a> 
+<a href="#">View Notes</a></br>
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Game</a> 
 
 <h4>Project 4: Intro to JavaScript - Pixel Art Maker</h4>
 <p>Get<p>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Project</a>
+<a href="#">View Notes</a></br>
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Pixel Art Maker</a>
   
 <hr>
 insert certification here
