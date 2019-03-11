@@ -15,7 +15,7 @@ Nanodegree Notes:
 <p>Built using HTML and CSS, this project demonstrates knowledge of basic website design.<p>
 <a href="https://htmlpreview.github.io/?">View Notes</a></br>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card.html">
-View Animal Card Project</a> 
+View Animal Card</a> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
