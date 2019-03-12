@@ -17,6 +17,10 @@ li {
   margin-bottom: 2px;
 }
 
+body {
+  background-color: #3b5998;
+}
+
 /*Animal Trading Card Containers*/
 .card-container {
   border: solid;
@@ -25,6 +29,7 @@ li {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
 }
 
 .animal-info-container {
