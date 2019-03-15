@@ -9,11 +9,11 @@ Nanodegree Notes:
 
 <h4>Lab 1: Intro to HTML</h4>
 <p>Compile lesson notes using HTML and get some early feedback during the first week.</p>
-<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html" target="_blank">View Notes</a>
+<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html" target="_blank">View HTML Notes</a>
 
 <h4>Project 1: Intro to CSS - Animal Trading Card Project</h4>
 <p>Built using HTML and CSS, this project demonstrates knowledge of basic website design.<p>
-<a href="https://htmlpreview.github.io/?">View Notes</a></br>
+<a href="https://htmlpreview.github.io/?">View HTML / CSS Notes</a></br>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card.html">
 View Animal Card</a> 
 
