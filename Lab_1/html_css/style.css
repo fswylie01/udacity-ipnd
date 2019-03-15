@@ -1,4 +1,23 @@
 /*Main CSS*/
+body {
+  font-family: "verdana";
+}
+
+.colored-section {
+  background-color: #dfe2e2;
+}
+
+/*Navigation Bar*/
+.nav-item {
+  padding: 5px 5px;
+}
+
+.nav-link {
+  /*color: #fff;*/
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
 #section1 {
   padding: 2% 2% 40% 2%;
 }
