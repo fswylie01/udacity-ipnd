@@ -1,43 +1,3 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>udacity-ipnd</title>
-  <meta name="description" content="udacity-ipnd">
-  <meta name="author" content="frank wylie">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-  
-  <style>
-
-      /* unvisited link */
-      a:link {
-        color: #3b5998;
-      }
-
-      /* visited link */
-      a:visited {
-        color: #3b5998;
-      }
-
-      /* mouse over link */
-      a:hover {
-        color: red;
-      }
-
-      /* selected link */
-      a:active {
-        color: green;
-      }
-
-  </style>
-
-</head>
-
-<body>
-  
 <h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Intro to Programming Nanodegree</a></h1>
 
 Nanodegree Notes:
@@ -76,26 +36,3 @@ View Animal Card</a>
 insert certification here
 <hr>
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <script src="js/scripts.js"></script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
