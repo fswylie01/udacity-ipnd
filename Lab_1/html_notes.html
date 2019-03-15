@@ -10,8 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
   <!-- Bootstrap and Style Sheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="../../main_css_folder/style.css" />
   <link rel="stylesheet" href="./html_css/style.css" />
 
   <!-- Font Awesome -->
@@ -19,6 +19,7 @@
 
   <title>Frank's Notebook</title>
 </head>
+<a id="#top"></a>
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #3b5998;">
@@ -32,7 +33,21 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item ">
-          <a class="nav-link active" href="#"> HTML Notes<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="../../main_index.html"> HOME <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+           aria-haspopup="true" aria-expanded="false">
+          HTML / CSS
+        </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item active" href="#">HTML</a>
+            <a class="dropdown-item" href="../../my_notes/css_notes_folder/css_notes.html">CSS</a>
+            <a class="dropdown-item" href="../../my_notes/css_notes_folder/cssbox_notes.html">CSS Box Model</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="../../my_notes/bootstrap_notes_folder/bootstrap_notes.html">Bootstrap</a>
+            <a class="dropdown-item" href="../../my_notes/web_design_notes_folder/web_design_notes.html">Web Design 101</a>
+          </div>
         </li>
       </ul>
     </div>
@@ -41,106 +56,125 @@
 
 
 
-<section class="colored-section" id="section1">
-  <div id="container">
-    <a id="#top"></a>
+  <section class="colored-section" id="section1">
+    <div class="container-fluid">
 
-    <H3><mark>&#35;1 - HTML &amp; Web Basics</mark></H3>
-    <h4>From Me to the Server and Back: How things are connected?</h4>
+      <h3><mark>HTML Overview</mark></h3><br />
+      <h5>Sections:</h5>
 
-    <ul>
-      <li>The User</li>
-      <li>The Web Browswer (Chrome, Firefox, etc.)</li>
-      <li>The Internet - World Wide Web</li>
-      <li>Hypertext Transfer Protocol (HTTP or HTTPS)</li>
-      <li>Internet Servers</li>
-      <li>Udacity Web Connection Explained</li>
-      <li>Web Development Notes</li>
-    </ul>
-
-    <h4><u>The User:</u></h4>
-    <p>The user (me) will interact with a web browser by typing in a specific web page address into a browser.</p>
-
-    <h4><u>The Web Browser:</u></h4>
-    <p>The Web browser is an application, like Chrome, Firefox, Edge, or Safari, that is designed
-      for displaying web pages. Web pages are usually stored on servers. Usually, to load a web page,
-      your browser sends a request for that page to a server. Browser gets web pages by communicating
-      with servers over the Internet and interprets them to the user.</p>
-
-    <h4><u>The Internet:</u></h4>
-    <p>The Internet (Web) is collection of documents written in HTML (HyperText Markup Language), along with other
-      resources such as images and videos, as well as programs and services that interact with these documents
-      and resources. Those resources are spread out among millions of computer systems. The Web is a hypertext
-      system which is a form of text in which documents can refer (hyperlink or just link) to other documents and
-      resources. Users can follow those references (links) to find related information spread out over the Web.
-      Both documents and other data objects (images, videos, fonts, program code, etc...).</p>
-
-    <h4><u>Hypertext Transfer Protocol:</u></h4>
-    <p>HTTP means HyperText Transfer Protocol. HTTP is the underlying protocol used by the World Wide Web and this
-      protocol defines how messages are formatted and transmitted, and what actions Web servers and browsers should
-      take in response to various commands.</p>
-
-    <h4><u>Internet Servers:</u></h4>
-    <p>Internet servers are just computers, but they have programs running on them that answer a browser's requests.
-      It makes a request to the server for a particular document by name. the server sends a response
-      back to the browser containing that document, or and error message instead.</p>
-
-    <h4><u>Udacity Web Connection Explained:</u></h4>
-    <p>When you type udacity.com into your browser, your browser communicates with Udacity's server using HTTP (or HTTPs).
-      Udacity's Web server returns an HTML file to your browser. Based on information contained in the HTML, your browser
-      requests other files from Udacity's web server and from other web servers. When developing your own web page, simply
-      save the file on your computer and then load it in the browser. When ready, put the files on a web server so everyone
-      can access it.</p>
-
-    <h4><u>Web Development Notes:</u></h4>
-    <ol>
-      <li>Syntax - grammar rules for a language.</li>
-      <li>Formalism - Computers are stupid and take code literally - NO auto-correct</li>
-      <li>Nesting - Putting code inside other code.</li>
-      <li>Lots of development resources out there.</li>
-    </ol>
-
-    <hr />
-    <H3><mark>&#35;2 - HTML Markup Syntax: Tags, Elements, &amp; Attributes</mark></H3>
-    <p>HTML is the main type of document on the web that binds the Internet together. This document contains:</p>
-    <ul>
-      <li>Text content (what you see)</li>
-      <li>Markup (what it looks like)</li>
-      <li>References to other documents (ie. images &amp; videos)</li>
-      <li>Links to other pages</li>
-    </ul>
-
-    <p>Markup syntax is just text that has a special meaning that involves tags. Those HTML tags are element names surrounded by
-      angle brackets. Developers often say element when they mean tag, and visa versa. The following are some examples
-      (without brackets):</p>
-
-    <ul>
-      <li>The <mark><u>&lt;!DOCTYPE html&gt;</u></mark> html declaration defines this document to be HTML5.</li>
-      <li>The <mark><u>&lt;html&gt;</u></mark> element is the root element of an HTML page.</li>
-      <li>The <mark><u>&lt;head&gt;</u></mark> element contains meta information about the document.</li>
-      <li>The <mark><u>&lt;title&gt;</u></mark> element specifies a title for the document.</li>
-      <li>The <mark><u>&lt;body&gt;</u></mark> element contains the visible page content.</li>
-      <li>The <mark><u>&lt;h1&gt;</u></mark> element defines a large heading.</li>
-      <li>The <mark><u>&lt;em&gt;</u></mark> element defines text as italic. (i.e. <em>italic font</em>)</li>
-      <li>The <mark><u>&lt;strong&gt;</u></mark> element defines text as boldface (i.e. <strong>bold font</strong>).</li>
-      <li>The <mark><u>&lt;sub&gt;</u></mark> element defines a subscript (i.e. C<sub>10</sub>H<sub>20</sub>)</li>
-      <li>The <mark><u>&lt;sup&gt;</u></mark> element defines a superscript (i.e. C<sup>10</sup>H<sup>20</sup>).</li>
-      <li>The <mark><u>&lt;div&gt;</u></mark> element defines the logical division of the document.</li>
-      <li>The <mark><u>&lt;p&gt;</u></mark> element defines a paragraph.</li>
-    </ul><br />
-
-    <img src="./html_images/html_tags.png" class="img-fluid" style="border-style:none;
-    margin-left: 60px;"  alt="html_tags.png">
-    <br /><br />
-
-    <ul>
-      <li><u><strong>Element</strong></u> - In HTML, an element usually consists of a start tag and end tag,
-         with the content inserted in between.</li>
-      <li><u><strong>Tag</strong></u> - used to mark up the start (opening tag) and end (closing tag) of an HTML element.</li>
-      <li><u><strong>Attribute</strong></u> - defines a property for an element, consists of an attribute / value pair, and appears within the element's start tag. </li>
-    </ul>
-
+      <ul class="sections">
+        <li><a href="#1_html">&#35;1 - HTML &amp; Web Basics</a></li>
+        <li><a href="#2_syntax">&#35;2 - HTML Markup Syntax: Tags, Elements, &amp; Attributes</a></li>
+        <li><a href="#3_elements">&#35;3 - Block &amp; Inline Elements</a></li>
+        <li><a href="#4_anchors">&#35;4 - Web Addresses, Anchors, Images &amp; Files</a></li>
+        <li><a href="#5_tools">&#35;5 - The &lt;!DOCTYPE html&gt; Tag, HTML Validator, &amp; Key Tools</a></li>
+        <li><a href="#6_used">&#35;6 - HTML Elements <strong>"Used"</strong> On This Assignment</a></li>
+        <li><a href="#7_not_used">&#35;7 - HTML Elements <strong>"Not Used"</strong> On This Assignment</a></li>
+      </ul>
+      <a name="1_html"></a>
       <hr />
+
+      <br />
+      <h3><mark>&#35;1 - HTML &amp; Web Basics</mark></h3><br />
+      <h4>From Me to the Server and Back: How things are connected?</h4>
+
+      <ul>
+        <li>The User</li>
+        <li>The Web Browswer (Chrome, Firefox, etc.)</li>
+        <li>The Internet - World Wide Web</li>
+        <li>Hypertext Transfer Protocol (HTTP or HTTPS)</li>
+        <li>Internet Servers</li>
+        <li>Udacity Web Connection Explained</li>
+        <li>Web Development Notes</li>
+      </ul>
+
+      <h4><u>The User:</u></h4>
+      <p>The user (me) will interact with a web browser by typing in a specific web page address into a browser.</p>
+
+      <h4><u>The Web Browser:</u></h4>
+      <p>The Web browser is an application, like Chrome, Firefox, Edge, or Safari, that is designed
+        for displaying web pages. Web pages are usually stored on servers. Usually, to load a web page,
+        your browser sends a request for that page to a server. Browser gets web pages by communicating
+        with servers over the Internet and interprets them to the user.</p>
+
+      <h4><u>The Internet:</u></h4>
+      <p>The Internet (Web) is collection of documents written in HTML (HyperText Markup Language), along with other
+        resources such as images and videos, as well as programs and services that interact with these documents
+        and resources. Those resources are spread out among millions of computer systems. The Web is a hypertext
+        system which is a form of text in which documents can refer (hyperlink or just link) to other documents and
+        resources. Users can follow those references (links) to find related information spread out over the Web.
+        Both documents and other data objects (images, videos, fonts, program code, etc...).</p>
+
+      <h4><u>Hypertext Transfer Protocol:</u></h4>
+      <p>HTTP means HyperText Transfer Protocol. HTTP is the underlying protocol used by the World Wide Web and this
+        protocol defines how messages are formatted and transmitted, and what actions Web servers and browsers should
+        take in response to various commands.</p>
+
+      <h4><u>Internet Servers:</u></h4>
+      <p>Internet servers are just computers, but they have programs running on them that answer a browser's requests.
+        It makes a request to the server for a particular document by name. the server sends a response
+        back to the browser containing that document, or and error message instead.</p>
+
+      <h4><u>Udacity Web Connection Explained:</u></h4>
+      <p>When you type udacity.com into your browser, your browser communicates with Udacity's server using HTTP (or HTTPs).
+        Udacity's Web server returns an HTML file to your browser. Based on information contained in the HTML, your browser
+        requests other files from Udacity's web server and from other web servers. When developing your own web page, simply
+        save the file on your computer and then load it in the browser. When ready, put the files on a web server so everyone
+        can access it.</p>
+
+      <h4><u>Web Development Notes:</u></h4>
+      <ol>
+        <li>Syntax - grammar rules for a language.</li>
+        <li>Formalism - Computers are stupid and take code literally - NO auto-correct</li>
+        <li>Nesting - Putting code inside other code.</li>
+        <li>Lots of development resources out there.</li>
+      </ol>
+
+      <a name="2_syntax"></a>
+      <hr />
+      <br />
+      <H3><mark>&#35;2 - HTML Markup Syntax: Tags, Elements, &amp; Attributes</mark></H3><br />
+      <p>HTML is the main type of document on the web that binds the Internet together. This document contains:</p>
+      <ul>
+        <li>Text content (what you see)</li>
+        <li>Markup (what it looks like)</li>
+        <li>References to other documents (ie. images &amp; videos)</li>
+        <li>Links to other pages</li>
+      </ul>
+
+      <p>Markup syntax is just text that has a special meaning that involves tags. Those HTML tags are element names surrounded by
+        angle brackets. Developers often say element when they mean tag, and visa versa. The following are some examples
+        (without brackets):</p>
+
+      <ul>
+        <li>The <mark><u>&lt;!DOCTYPE html&gt;</u></mark> html declaration defines this document to be HTML5.</li>
+        <li>The <mark><u>&lt;html&gt;</u></mark> element is the root element of an HTML page.</li>
+        <li>The <mark><u>&lt;head&gt;</u></mark> element contains meta information about the document.</li>
+        <li>The <mark><u>&lt;title&gt;</u></mark> element specifies a title for the document.</li>
+        <li>The <mark><u>&lt;body&gt;</u></mark> element contains the visible page content.</li>
+        <li>The <mark><u>&lt;h1&gt;</u></mark> element defines a large heading.</li>
+        <li>The <mark><u>&lt;em&gt;</u></mark> element defines text as italic. (i.e. <em>italic font</em>)</li>
+        <li>The <mark><u>&lt;strong&gt;</u></mark> element defines text as boldface (i.e. <strong>bold font</strong>).</li>
+        <li>The <mark><u>&lt;sub&gt;</u></mark> element defines a subscript (i.e. C<sub>10</sub>H<sub>20</sub>)</li>
+        <li>The <mark><u>&lt;sup&gt;</u></mark> element defines a superscript (i.e. C<sup>10</sup>H<sup>20</sup>).</li>
+        <li>The <mark><u>&lt;div&gt;</u></mark> element defines the logical division of the document.</li>
+        <li>The <mark><u>&lt;p&gt;</u></mark> element defines a paragraph.</li>
+      </ul><br />
+
+      <img src="./html_images/html_tags.png" class="img-fluid" style="border-style:none;
+    margin-left: 60px;"  alt="html_tags.png">
+      <br /><br />
+
+      <ul>
+        <li><u><strong>Element</strong></u> - In HTML, an element usually consists of a start tag and end tag,
+          with the content inserted in between.</li>
+        <li><u><strong>Tag</strong></u> - used to mark up the start (opening tag) and end (closing tag) of an HTML element.</li>
+        <li><u><strong>Attribute</strong></u> - defines a property for an element, consists of an attribute / value pair, and appears within the element's start tag. </li>
+      </ul>
+
+      <a name="3_elements"></a>
+      <hr />
+      <br />
       <H3><mark>&#35;3 - Block &amp; Inline Elements</mark></H3><br />
       <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements#Elements"
       target="_blank">Block-level elements</a> - The link leads to a complete list of all HTML "block-level" elements (although "block-level" is
@@ -157,9 +191,10 @@
       <img src="./html_images/in.png" class="img-fluid" style="border-style:none;
       margin-left: 60px;"  alt="in.png"><br />
 
-
+      <a name="4_anchors"></a>
       <hr />
-      <H3><mark>&#35;4 - Web Addresses, Anchors, Images &amp; Files</mark></H3>
+      <br />
+      <H3><mark>&#35;4 - Web Addresses, Anchors, Images &amp; Files</mark></H3><br />
       <p>
         <u><strong>URL</strong></u> - Uniform Resource Locator
       </p>
@@ -199,15 +234,17 @@
           target="_blank">Click For Picture!</a>
       </p>
 
-      <h3>Image &amp; Anchor Example:</h3>
+      <h5>Image &amp; Anchor Example:</h5>
       <p style="margin: 25px;">
         &lt;img src="https://fakeurl.example.net/fish.png" alt="Fish"&gt;<br />
         &lt;a href="http://placebear.com/800/600"
           target="_blank"&gt;Click For Picture!&lt;/a&gt;
       </p>
 
+        <a name="5_tools"></a>
         <hr />
-        <H3><mark>&#35;5 - The &lt;!DOCTYPE html&gt; Tag, HTML Validator, &amp; Key Tools</mark></H3>
+        <br />
+        <H3><mark>&#35;5 - The &lt;!DOCTYPE html&gt; Tag, HTML Validator, &amp; Key Tools</mark></H3><br />
         <p>
           The <b>!DOCTYPE html tag</b> at the top of your file indicates the type of each modern web document.
         </p>
@@ -237,8 +274,10 @@
         <a href="#top">Go To Top</a>
         <br /><br />
 
+        <a name="6_used"></a>
         <hr /><br />
-        <h2>HTML Elements <u><mark>Used</mark></u> On This Assignment</h2>
+        <br />
+        <h2>HTML Elements <u><mark>Used</mark></u> On This Assignment</h2><br />
         <h6>Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/"
         target="_blank">MDN Web Docs - Resources for developers, by developers.</a></h6>
 
@@ -543,8 +582,12 @@
         <a href="#top">Go To Top</a>
         <br /><br />
 
+        <a name="7_not_used"></a>
         <hr />
-        <h2>HTML Elements <u><mark>Not Used</mark></u> On This Assignment</h2>
+        <br />
+        <h2>HTML Elements <u><mark>Not Used</mark></u> On This Assignment</h2><br />
+        <h6>Source: <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/"
+        target="_blank">MDN Web Docs - Resources for developers, by developers.</a></h6>
 
         <table>
           <thead>
@@ -1148,9 +1191,8 @@
 
         <br /><br />
         <a href="#top">Go To Top</a>
-        <br /><br />
-</div>
-</section>
+    </div>
+  </section>
 
 
   <!-- Optional JavaScript -->
