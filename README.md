@@ -1,7 +1,7 @@
 <h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Intro to Programming Nanodegree</a></h1>
 
 Nanodegree Notes:
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View My Notes &amp; Resources</a>
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View IPND Notes &amp; Resources - coming soon</a>
 
 <p>----------</p>
 
@@ -19,18 +19,18 @@ View Animal Card</a>
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
-<a href="#">View Notes</a></br>
-<a href="#">View Adventure Game</a> 
+<a href="#">View Notes - coming soon</a></br>
+<a href="#">View Adventure Game - coming soon</a> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
-<a href="#">View Notes</a></br>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Game</a> 
+<a href="#">View Notes - coming soon</a></br>
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Game - coming soon</a> 
 
 <h4>Project 4: Intro to JavaScript - Pixel Art Maker</h4>
 <p>Get<p>
-<a href="#">View Notes</a></br>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Pixel Art Maker</a>
+<a href="#">View Notes - coming soon</a></br>
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Pixel Art Maker - coming soon</a>
   
 <hr>
 insert certification here
