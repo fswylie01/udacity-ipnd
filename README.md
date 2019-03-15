@@ -36,9 +36,3 @@ View Animal Card</a>
 insert certification here
 <hr>
 
-<h4>Other projects competed during this time to enhance my web knowledge:</h4><br>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">TinDog (w/bootstrap)</a></br>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">HTML 1</a></br>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">HTML 2</a></br>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">HTML 3</a></br>
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">HTML 4</a></br>
