@@ -1,0 +1,66 @@
+/*Main CSS*/
+body {
+  font-family: "verdana";
+}
+
+.colored-section {
+  background-color: #dfe2e2;
+}
+
+/*Navigation Bar*/
+.nav-item {
+  padding: 5px 5px;
+}
+
+.nav-link {
+  /*color: #fff;*/
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+
+#section1 {
+  padding: 2% 2% 40% 2%;
+}
+
+hr {
+  height: 20px;
+}
+
+
+td {
+  padding: 15px;
+  border: 1px solid #333;
+}
+
+thead {
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  margin: 20px;
+}
+
+mark {
+  color: #3b5998;
+  background-color: white;
+}
+
+/* unvisited link */
+a:link {
+  color: #3b5998;
+}
+
+/* visited link */
+a:visited {
+  color: #3b5998;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
