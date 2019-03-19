@@ -1,4 +1,4 @@
-<h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Intro to Programming Nanodegree</a></h1>
+<h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Introduction to Programming Nanodegree</a></h1>
 <h4>Start Date: 01/29/2019</h4>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View IPND Notes &amp; Resources - coming soon</a>
