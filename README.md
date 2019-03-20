@@ -19,17 +19,20 @@
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
-<a href="#">View Notes - coming soon</a></br>
+<a href="#">View Python Notes - coming soon</a></br>
+
 <a href="#">View Adventure Game - coming soon</a> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
-<a href="#">View Notes - coming soon</a></br>
+<a href="#">View Python Notes - coming soon</a></br>
+
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Game - coming soon</a> 
 
-<h4>Project 4: Intro to JavaScript - Pixel Art Maker</h4>
+<h4>Project 4: Intro to JavaScript (JS) - Pixel Art Maker</h4>
 <p>Get<p>
-<a href="#">View Notes - coming soon</a></br>
+<a href="#">View JS Notes - coming soon</a></br>
+
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Pixel Art Maker - coming soon</a>
   
 <hr>
