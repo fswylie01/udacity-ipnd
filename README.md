@@ -19,9 +19,9 @@
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
-<a href="#">View Python Notes - coming soon</a></br>
+<a href="#">View Python Notes</a></br>
 
-<a href="#">View Adventure Game - coming soon</a> 
+<a href="#">View Adventure Game</a> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
