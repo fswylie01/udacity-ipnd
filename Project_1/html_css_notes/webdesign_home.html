@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "verdana";
+    }
+
+    mark {
+      color: #3b5998;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* unvisited link */
+    a:link {
+      color: #3b5998;
+    }
+
+    /* visited link */
+    a:visited {
+      color: #3b5998;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: red;
+    }
+
+    /* selected link */
+    a:active {
+      color: green;
+    }
+
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    .sidebar a.active {
+      background-color: black;
+      color: white;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+
+    .content {
+      background-color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .sidebar a {
+        float: left;
+      }
+
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+  </style>
+
+  <!-- Load an icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <a id="#top"></a>
+
+  <div class="sidebar">
+    <a href="./home_home.html"><i class="fa fa-fw fa-home"></i> HOME</a>
+    <a href="./html_home.html">HTML Notes</a>
+    <a href="./css_home.html">CSS Notes</a>
+    <a href="./cssbox_home.html">CSS Box Model</a>
+    <a href="./bootstrap_home.html">Bootstrap Notes</a>
+    <a class="active" href="./webdesign_home.html">Web Design Tips</a>
+  </div>
+
+  <div class="content">
+    <h3>Web Design Tips</h3>
+
+    <ul>
+      <li><a href="#1_design">&#35;1 - Designer vs. Non-Designer Thinking</a></li>
+      <li><a href="#2_color_thoery">&#35;2 - Colour Theory</a></li>
+      <li><a href="#3_color_palettes">&#35;3 - Combine Colours to Create Colour Palettes</a></li>
+      <li><a href="#4_color_design">&#35;4 - Tools for Designing with Colour</a></li>
+      <li><a href="#5_typography">&#35;5 - Introduction to Typography &amp; Readability</a></li>
+      <li><a href="#6_fonts">&#35;6 - Combining Fonts</a></li>
+      <li><a href="#7_design">&#35;7 - UI Design</a></li>
+    </ul>
+
+
+    <a name="1_design"></a>
+    <hr />
+    <h3>&#35;1 - Designer vs. Non-Designer Thinking</h3>
+    <p>
+      Think about colors (color theory), and typography with different typefaces.
+    </p>
+
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="2_color_thoery"></a>
+    <hr />
+    <H3>&#35;2 - Colour Theory</H3>
+    <p>
+      Different colors or different shades can achieve different results.
+    </p>
+    <ul>
+      <li><strong>Red</strong> - Love, Energy, Intensity (used in car ads)</li>
+      <li><strong>Yellow</strong> - Joy, Intellect, Attention (used in grab attention - beach body ads)</li>
+      <li><strong>Green</strong> - Freshness, Safety, Growth (used in food service ads)</li>
+      <li><strong>Blue</strong> - Stability, Trust, Serenity (used in medical and health ads)</li>
+      <li><strong>Purple</strong> - Royalty, Wealth, Femininity (used in loan ads)</li>
+    </ul>
+
+
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="3_color_palettes"></a>
+    <hr />
+    <H3>&#35;3 - Combine Colours to Create Colour Palettes</H3>
+    <p>
+      Start with the color wheel.
+    </p>
+    <ul>
+      <li><strong>Analogous</strong> Colors Palette or adjacent color - used for app background screens</li>
+      <li><strong>Complementary</strong> Color Palette or opposite colors - used for attention grabbing screen shots</li>
+      <li><strong>Split</strong> Color Palette to tone down the overall color - used for simple app icon design</li>
+      <li><strong>Triadic</strong> Color Palette are well balanced and attention grabbing - look very 90s designs</li>
+      <li><strong>Monochromatic</strong> Palette is for modern design</li>
+    </ul>
+
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="4_color_design"></a>
+    <hr />
+    <H3>&#35;4 - Tools for Designing with Colour</H3>
+    <p>
+      Some web resources for color &amp; font.
+    </p>
+    <ul>
+      <li><a href="https://colorhunt.co/"
+      target="_blank">ColorHunt.com</a></li>
+      <li><a href="https://flatuicolors.com/"
+      target="_blank">FlatUIColors.com - mainly for iOS</a></li>
+      <li><a href="https://www.materialpalette.com/"
+      target="_blank">MaterialPalette.com - mainly for Android</a></li>
+      <li><a href="https://chrome.google.com/webstore/detail/colorzilla/bhlhnicpbhignbdhedgjhgdocnmhomnp?hl=en"
+      target="_blank">ColorZilla - Chrome Browser Extension</a></li>
+      <li><a href="https://chrome.google.com/webstore/detail/whatfont/jabopobgcpjmedljpbcaablpmlmfcogm?hl=en"
+      target="_blank">WhatFont - Chrome Browser Extension</a></li>
+    </ul>
+
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="5_typography"></a>
+    <hr />
+    <H3>&#35;5 - Introduction to Typography &amp; Readability</H3>
+    <p>
+      Serif Type Family - Have tiny little feet dating back to stone carvings.<br /><br />
+      Divided into four font families:
+    </p>
+      <ol>
+        <li><strong>Old Style</strong> (1400s style)</li>
+        <li><strong>Transitional</strong> (new times roman font)</li>
+        <li><strong>Modern</strong> (vogue magazine)</li>
+        <li><strong>Slab-Serif</strong> (newspaper print)</li>
+      </ol>
+      <p>
+        Sans-Serif Type Family - Does <mark>"NOT"</mark> have those tiny little feet.
+      </p>
+      <ol>
+        <li><strong>Grotesque</strong> (news gothic font)</li>
+        <li><strong>Neo-Grotesque</strong> (helvetica)</li>
+        <li><strong>Humanist</strong> (gill sans)</li>
+        <li><strong>Geometric</strong> (futura)</li>
+      </ol>
+      <p>
+        Typography Determines Readabilty - Look for the following:
+      </p>
+      <ol>
+        <li><strong>Open Shapes</strong> - larger letters are easier to read</li>
+        <li><strong>Ample Intercharacter Spacing</strong> - more distance between letters are easier to read</li>
+        <li><strong>Unambiguous Forms</strong> - letters and numbers are easier to notice</li>
+        <li><strong>Varying Proportions</strong> - different character widths enhance readability</li>
+      </ol>
+
+      <a href="#top">Go To Top</a>
+      <br /><br />
+
+
+      <a name="6_fonts"></a>
+      <hr />
+      <H3>&#35;6 - Combining Fonts</H3>
+      <p>
+        Rule: 2 fonts together will usually look pretty good, but 3 plus will not.
+      </p>
+      <ul>
+        <li>Things to keep <strong>Similar</strong>: Mood &amp; Time Era of the fonts</li>
+        <li>Things to keep in <strong>Contrast</strong>: Serif-ness &amp; Weights</li>
+      </ul>
+
+      <a href="#top">Go To Top</a>
+      <br /><br />
+
+
+
+      <a name="7_design"></a>
+      <hr />
+      <H3>&#35;7 - UI Design</H3>
+      <p>
+        Start by imagining your APP as a journey any your the tour guide.
+      </p>
+      <ol>
+        <li><strong>Journey</strong> should be curated and tailored, and not a block text design.</li>
+        <li>The <strong>importance of alignment</strong> and how it's key in digital design.<br /> Try to minimize the number of alignment lines.</li>
+        <li><strong>Make buttons appear clickable</strong> - ie. rounded border, add color gradients, &amp; instruction<br />
+       image on button. Make it look interactive.</li>
+        <li>Start you design working in <strong>monochrome</strong> and get alignment correct before adding color.</li>
+        <li><strong>Make text visible on your images</strong> - use a dark background, change text color for<br />
+       contrast, or change the gradient opacity across image.</li>
+        <li>Be an <strong>Attention Wizard</strong> - construct a user journey to keep their attention.</li>
+      </ol>
+
+      <a href="#top">Go To Top</a>
+      <br /><br />
+
+      <hr />
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: "verdana";
+    }
+
+    mark {
+      color: #3b5998;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* unvisited link */
+    a:link {
+      color: #3b5998;
+    }
+
+    /* visited link */
+    a:visited {
+      color: #3b5998;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: red;
+    }
+
+    /* selected link */
+    a:active {
+      color: green;
+    }
+
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    .sidebar a.active {
+      background-color: black;
+      color: white;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+
+    .content {
+      background-color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .sidebar a {
+        float: left;
+      }
+
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+  </style>
+
+  <!-- Load an icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <a id="#top"></a>
+
+  <div class="sidebar">
+    <a href="./home_home.html"><i class="fa fa-fw fa-home"></i> HOME</a>
+    <a href="./html_home.html">HTML Notes</a>
+    <a href="./css_home.html">CSS Notes</a>
+    <a class="active" href="./cssbox_home.html">CSS Box Model</a>
+    <a href="./bootstrap_home.html">Bootstrap Notes</a>
+    <a href="./webdesign_home.html">Web Design Tips</a>
+  </div>
+
+  <div class="content">
+    <h3>CSS Box Notes</h3>
+
+    <ul>
+      <li><a href="#1_css_box">&#35;1 - CSS Box Model</a></li>
+      <li><a href="#2_border_examples">&#35;2 - Box Model - Border Examples</a></li>
+      <li><a href="#3_box_challenge">&#35;3 - Box Model Challenge</a></li>
+      <li><a href="#4_display_property">&#35;4 - CSS <strong>Display</strong> Property</a></li>
+      <li><a href="#5_position_property">&#35;5 - CSS <strong>Position</strong> Property</a></li>
+    </ul>
+
+
+    <a name="1_css_box"></a>
+    <hr />
+    <h3>&#35;1 - CSS Box Model</h3><br />
+    <img src="./css_images/CSS_BoxModel.png" style="border-style:none; width: 80%; margin-left: 60px;"  alt="CSS_BoxModel.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="2_border_examples"></a>
+    <hr />
+    <H3>&#35;2 - Box Model - Border Examples</H3><br />
+    <img src="./css_images/CSS_BoxModel_ex1.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="CSS_BoxModel.png"><br /><br />
+    <img src="./css_images/CSS_BoxModel_ex2.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="CSS_BoxModel.png"><br /><br />
+    <img src="./css_images/CSS_BoxModel_ex3.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="CSS_BoxModel.png"><br /><br />
+    <img src="./css_images/CSS_BoxModel_ex4.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="CSS_BoxModel.png"><br /><br />
+    <img src="./css_images/CSS_BoxModel_ex5.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="CSS_BoxModel.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="3_box_challenge"></a>
+    <hr />
+    <H3>&#35;3 - Box Model Challenge</H3><br />
+    <img src="./css_images/CSS_BoxModel_Chal_1.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="BoxModel_Chal_1.png"><br /><br />
+    <img src="./css_images/CSS_BoxModel_Chal_2.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="BoxModel_Chal_2.png"><br /><br />
+    <img src="./css_images/CSS_BoxModel_Chal_3.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="BoxModel_Chal_3.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="4_display_property"></a>
+    <hr />
+    <H3>&#35;4 - CSS Display Property</H3><br />
+    Reference: <a href="https://www.w3schools.com/css/css_display_visibility.asp"
+      target="_blank">W3 Schools Display Property</a><br /><br />
+    <img src="./css_images/CSS_Display_1.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="CSS_Display_1.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="5_position_property"></a>
+    <hr />
+    <H3>&#35;5 - CSS Position Property</H3><br />
+    Reference: <a href="https://www.w3schools.com/css/css_positioning.asp"
+      target="_blank">W3 Schools Position property</a><br /><br />
+    <img src="./css_images/CSS_Position_1.png" style="border-style:none; width: 50%; margin-left: 60px;"  alt="CSS_Position_1.png"><br /><br />
+    <p>
+      Note: <strong>Static</strong> is the default position, and <strong>fixed</strong> will likely be used to navigation.
+    </p>
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+    <hr />
+  </div>
+</body>
+
+</html>

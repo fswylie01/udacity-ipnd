@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+  
+    body {
+      margin: 0;
+      font-family: "verdana";
+    }
+
+    mark {
+      color: #3b5998;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* unvisited link */
+    a:link {
+      color: #3b5998;
+    }
+
+    /* visited link */
+    a:visited {
+      color: #3b5998;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: red;
+    }
+
+    /* selected link */
+    a:active {
+      color: green;
+    }
+
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    .sidebar a.active {
+      background-color: black;
+      color: white;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+
+    .content {
+      background-color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .sidebar a {
+        float: left;
+      }
+
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+  </style>
+
+  <!-- Load an icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <a id="#top"></a>
+
+  <div class="sidebar">
+    <a href="./home_home.html"><i class="fa fa-fw fa-home"></i> HOME</a>
+    <a href="./html_home.html">HTML Notes</a>
+    <a class="active" href="#">CSS Notes</a>
+    <a href="./cssbox_home.html">CSS Box Model</a>
+    <a href="./bootstrap_home.html">Bootstrap Notes</a>
+    <a href="./webdesign_home.html">Web Design Tips</a>
+  </div>
+
+  <div class="content">
+    <h3>CSS Notes</h3>
+
+    <ul>
+      <li><a href="#1_css">&#35;1 - What is CSS?</a></li>
+      <li><a href="#2_structure">&#35;2 - HTML Structure &amp; CSS Boxes</a></li>
+      <li><a href="#3_style">&#35;3 - Applying CSS "Style"</a></li>
+      <li><a href="#4_grammar">&#35;4 - CSS Grammar</a></li>
+      <li><a href="#5_review">&#35;5 - CSS Review I</a></li>
+      <li><a href="#6_cascading">&#35;6 - Defining Style Sheets</a></li>
+      <li><a href="#7_units">&#35;7 - Units of Measurement</a></li>
+      <li><a href="#8_boxes">&#35;8 - CSS Boxes</a></li>
+      <li><a href="#9_percentage">&#35;9 - Percentages</a></li>
+      <li><a href="#10_style">&#35;10 - Separating CSS Style</a></li>
+      <li><a href="#11_color">&#35;11 - Color</a></li>
+      <li><a href="#12_fonts">&#35;12 - Fonts</a></li>
+      <li><a href="#13_containers">&#35;13 - Containers</a></li>
+      <li><a href="#14_flexbox">&#35;14 - Flexible Box Model - Flexbox</a></li>
+      <li><a href="#15_css_review">&#35;15 - CSS Review II</a></li>
+      <li><a href="#16_rep_design">&#35;16 - Replicating a Design</a></li>
+      <li><a href="#17_overriding">&#35;17 - Overriding Default Browser Styles</a></li>
+    </ul>
+
+
+    <a name="1_css"></a>
+    <hr />
+    <h3>&#35;1 - What is CSS?</h3>
+    <p>
+      Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document
+      written in a markup language like HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML
+      and JavaScript. Just to be clear, CSS is its own separate language, with its own unique syntax.
+    </p>
+    <strong>Reference:</strong> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+    target="_blank">MDN CSS Site</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="2_structure"></a>
+    <hr />
+    <H3>&#35;2 - HTML Structure to CSS Boxes</H3>
+    <p>
+      The Web browser turns the HTML text into the tree structure of the DOM.<br /><br />
+    CSS is used to control how the tree structure is displayed using boxes.
+  </p>
+      <img src="./css_images/Tree_Structure.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="Tree_Structure.png"><br />
+
+      <br />
+      <a href="#top">Go To Top</a>
+      <br /><br />
+
+
+      <a name="3_style"></a>
+      <hr />
+      <h3>&#35;3 - Applying CSS "Style"</h3>
+      <ol>
+        <li><strong><u>Style Attribute</u></strong> - applies style (inline style) directly to an individual HTML element (inside opening tags).<br /><br />
+   Proper Inline Form: <mark>&lt;p style="text-align:center; color:blue;"&gt;This will be both centered and blue.&lt;/p&gt;</mark>.<br /><br />
+   Note: the quotes indicate where an attribute value starts and stops, even if there are spaces inside of it. </li><br />
+        <li><strong><u>Style Element</u></strong> - used along with a ruleset inside HTML &lt;HEAD&gt; element. </li>
+      </ol>
+
+      <br />
+      <a href="#top">Go To Top</a>
+      <br /><br />
+
+
+      <a name="4_grammar"></a>
+      <hr />
+      <h3>&#35;4 - CSS Grammar</h3>
+      <p>
+        A CSS Ruleset is composed of two parts: Selector &amp; Declaration Block.<br /><br />
+  The <strong><u>Selector</u></strong> indicates which elements (type) will the ruleset will be applied.<br /><br />
+  You can also use a selector class (.) attribute, or Id (#) attribute.<br /><br />
+  A class represents a group with the same characteristics. So, use a class attribute when there could be several elements that need the same style.<br /><br />
+  Use an id attribute when there's only one element (something unique) to apply it to.<br /><br />
+  Combining selectors - called the descendant selector is only one of many ways to combine selectors.<br /><br />
+  CSS Selector Documentation: <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Selectors"
+  target="_blank">MDN Web Docs</a><br /><br />
+  The <strong><u>Declaration Block</u></strong> determines how the "ruleset" will modify those elements.
+      </p>
+      <img src="./css_images/CSS_Syntax.png" style="border-style:none; width: 60%; margin-left: 30px;"  alt="CSS_Syntax.png"><br />
+
+      <br />
+      <a href="#top">Go To Top</a>
+      <br /><br />
+
+
+      <a name="5_review"></a>
+      <hr />
+      <h3>&#35;5 - CSS Review I</h3>
+      <img src="./css_images/CSS_Vocab.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_Vocab.png"><br /><br />
+      <img src="./css_images/CSS_Selectors_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_Selectors_1.png"><br /><br />
+      <img src="./css_images/CSS_Selectors_2.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_Selectors_2.png"><br />
+
+      <br />
+      <a href="#top">Go To Top</a>
+      <br /><br />
+
+
+      <a name="6_cascading"></a>
+      <hr />
+      <h3>&#35;6 - Defining Style Sheets</h3>
+      <p>
+        The term "cascading" in Cascading Style Sheets refers to the way that style properties "cascade" down the DOM tree,
+        starting at the top.<br /><br />A style applied to the body element will affect the entire document.<br /><br />
+   A style applied to a lower-level element will affect that element and all its descendants.
+  </p>
+        <img src="./css_images/CSS_cascade.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_cascade.png"><br />
+
+        <br />
+        <a href="#top">Go To Top</a>
+        <br /><br />
+
+
+        <a name="7_units"></a>
+        <hr />
+        <h3>&#35;7 - Units of Measurement</h3>
+        <ul>
+          <li><strong><u>Pixel</u></strong> - All devices are different. So, a pixel is defined as 1 inch = 96 pixels. </li>
+          <li><strong><u>Point</u></strong> - Most commonly used with fonts. A point is 72 pt = 1 inch.</li>
+          <li><strong><u>Em</u></strong> - Equals the font-size of the text in the element. So, 1em = font-size: 12pt
+            or 1em = font-size: 18pt.</li>
+        </ul>
+
+        <br />
+        <a href="#top">Go To Top</a>
+        <br /><br />
+
+
+        <a name="8_boxes"></a>
+        <hr />
+        <h3>&#35;8 - CSS Boxes</h3>
+        <p>
+          When the browswer renders HTML every element has an <mark>"invisible box"</mark> around it.
+        </p>
+        <img src="./css_images/CSS_Boxes_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_Boxes_1.png"><br /><br />
+        <p>
+          A developer can control the box width, height, padding, border, and margin.
+        </p>
+        <img src="./css_images/CSS_Boxes_2.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_Boxes_2.png"><br /><br />
+        <p>
+          Note: A developer can also nest div elements to put one box inside another.
+        </p>
+
+        <br />
+        <a href="#top">Go To Top</a>
+        <br /><br />
+
+
+        <a name="9_percentage"></a>
+        <hr />
+        <h3>&#35;9 - Percentages</h3>
+        <p>
+          Use a percentage to scale a boxes content to adjust for size. Just note this does not include the border.
+        </p>
+
+        <br />
+        <a href="#top">Go To Top</a>
+        <br /><br />
+
+
+        <a name="10_style"></a>
+        <hr />
+        <h3>&#35;10 - Separating CSS Style</h3>
+        <p>
+          The most common way is to link your HTML file to another file containing CSS instructions.</p>
+        <img src="./css_images/CSS_Stylesheet.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_Stylesheet.png"><br />
+
+        <br />
+        <a href="#top">Go To Top</a>
+        <br /><br />
+
+
+
+
+        <a name="11_color"></a>
+        <hr />
+        <h3>&#35;11 - Colors</h3>
+        <p>
+          There are three different ways to represent color values in the code.</p>
+        <img src="./css_images/CSS_Color.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_Color.png"><br /><br />
+  References:
+        <a href="https://www.w3schools.com/colors/colors_picker.asp"
+  target="_blank">W3 Schools HTML Color Picker</a> &amp;
+        <a href="https://colorhunt.co/"
+  target="_blank">Color Hunt</a><br />
+
+  <br />
+  <a href="#top">Go To Top</a>
+  <br /><br />
+
+
+        <a name="12_fonts"></a>
+        <hr />
+        <h3>&#35;12 - Fonts</h3>
+        <p>
+          You can add <mark>font-family rules</mark> to both of these
+          and then experiment with different fonts.</p>
+        <img src="./css_images/CSS_font_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_font_1.png"><br /><br />
+  Reference: <a href="https://css-tricks.com/almanac/properties/f/font/"
+  target="_blank">CSS-Tricks</a><br />
+
+  <br />
+  <a href="#top">Go To Top</a>
+  <br /><br />
+
+
+        <a name="13_containers"></a>
+        <hr />
+        <h3>&#35;13 - Containers</h3>
+        <p>
+          Div's don't do anything without any content. It's meant to structure and divide content.<br />
+  A div stands for a content division element.
+  </p>
+          <p>
+            Sample container (DIV) code:</p>
+          <img src="./css_images/CSS_div_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_div_1.png"><br /><br />
+          <img src="./css_images/CSS_div_2.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_div_2.png"><br />
+
+          <br />
+          <a href="#top">Go To Top</a>
+          <br /><br />
+
+
+          <a name="14_flexbox"></a>
+          <hr />
+          <h3>&#35;14 - Flexible Box Model - Flexbox</h3>
+          <p>
+            Sample container (Flexbox) code:</p>
+          <img src="./css_images/CSS_flex_3.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_flex_3.png"><br /><br />
+          <img src="./css_images/CSS_flex_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_flex_1.png"><br /><br />
+          <img src="./css_images/CSS_flex_2.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_flex_2.png"><br />
+
+          <br />
+          <a href="#top">Go To Top</a>
+          <br /><br />
+
+          <a name="15_css_review"></a>
+          <hr />
+          <h3>&#35;15 - CSS Review II</h3>
+          <img src="./css_images/CSS_review_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_review_1.png"><br /><br />
+          <img src="./css_images/CSS_review_2.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_review_2.png"><br /><br />
+          <img src="./css_images/CSS_review_3.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_review_3.png"><br /><br />
+          <img src="./css_images/CSS_review_4.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_review_4.png"><br /><br />
+          <img src="./css_images/CSS_review_5.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_review_5.png"><br />
+
+          <br />
+          <a href="#top">Go To Top</a>
+          <br /><br />
+
+
+          <a name="16_rep_design"></a>
+          <hr />
+          <h3>&#35;16 - Replicating a Design</h3>
+          <p>
+            Design:</p>
+          <img src="./css_images/CSS_design_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_design_1.png"><br /><br />
+          <p>
+            HTML:</p>
+          <img src="./css_images/CSS_design_2.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_design_2.png"><br /><br />
+          <p>
+            CSS:</p>
+          <img src="./css_images/CSS_design_3.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_design_3.png"><br />
+
+          <br />
+          <a href="#top">Go To Top</a>
+          <br /><br />
+
+
+          <a name="17_overriding"></a>
+          <hr />
+          <h3>&#35;17 - Overriding Default Browser Styles</h3>
+          <p>
+            You need to override those default browser styles using css.
+          </p>
+          <p>
+            Design <strong>"with"</strong> Default Browser Styles:</p>
+          <img src="./css_images/CSS_default_1.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_default_1.png"><br /><br />
+          <p>
+            Design <strong>"without"</strong> Default Browser Styles (fixed):</p>
+          <img src="./css_images/CSS_default_2.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_default_2.png"><br /><br />
+          <p>
+            Modify CSS Margin for both the "body and heading (I'm Frank)" to eleminate extra space:</p>
+          <img src="./css_images/CSS_default_3.png" style="border-style:none; width: 80%; margin-left: 30px;"  alt="CSS_default_3.png"><br />
+
+          <br />
+          <a href="#top">Go To Top</a>
+          <br /><br />
+          <hr />
+  </div>
+</body>
+
+</html>

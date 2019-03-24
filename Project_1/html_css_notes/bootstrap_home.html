@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: "verdana";
+    }
+
+    mark {
+      color: #3b5998;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* unvisited link */
+    a:link {
+      color: #3b5998;
+    }
+
+    /* visited link */
+    a:visited {
+      color: #3b5998;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: red;
+    }
+
+    /* selected link */
+    a:active {
+      color: green;
+    }
+
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 200px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    .sidebar a.active {
+      background-color: black;
+      color: white;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+
+    .content {
+      background-color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .sidebar a {
+        float: left;
+      }
+
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+  </style>
+
+  <!-- Load an icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <a id="#top"></a>
+
+  <div class="sidebar">
+    <a href="./home_home.html"><i class="fa fa-fw fa-home"></i> HOME</a>
+    <a href="./html_home.html">HTML Notes</a>
+    <a href="./css_home.html">CSS Notes</a>
+    <a href="./cssbox_home.html">CSS Box Model</a>
+    <a class="active" href="./bootstrap_home.html">Bootstrap Notes</a>
+    <a href="./webdesign_home.html">Web Design Tips</a>
+  </div>
+
+  <div class="content">
+    <h3>Bootstrap Notes</h3>
+
+    <ul>
+      <li><a href="#1_definition">&#35;1 - What's Bootstrap?</a></li>
+      <li><a href="#2_install">&#35;2 - Installing Bootstrap</a></li>
+      <li><a href="#3_wireframe">&#35;3 - Wireframing (low fidelity)</a></li>
+      <li><a href="#4_navbar">&#35;4 - Navbar &amp; Grid System</a></li>
+      <li><a href="#5_resources">&#35;5 - Bootstrap Resources</a></li>
+      <li><a href="#6_index">&#35;6 - Z Index Positioning (stacking order)</a></li>
+      <li><a href="#7_media">&#35;7 - CSS Media Queries</a></li>
+      <li><a href="#8_refactor">&#35;8 - Code Refactoring Principles</a></li>
+    </ul>
+
+
+    <a name="1_definition"></a>
+    <hr />
+    <h3>&#35;1 - What's Bootstrap?</h3>
+    <p>
+      Bootstrap is a front-end design framework (library) for web developers. Allows your website to<br />
+    be responsive (adaptable layout) to different view-ports.
+    </p>
+      <strong>Reference:</strong> <a href="https://getbootstrap.com/" target="_blank">Bootstrap WebSite</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="2_install"></a>
+    <hr />
+    <H3>&#35;2 - Installing Bootstrap</H3>
+    <p>
+      Content Delivery Network (CDN) - point to a relative url to install bootstrap and cache it.
+    </p>
+
+
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="3_wireframe"></a>
+    <hr />
+    <H3>&#35;3 - Wireframing (low fidelity)</H3>
+    <p>
+      Create a few versions of the site before settling on the final. <br /><br />
+      A mock-up is a high fidelity version and not the best place to start.<br /><br />
+      Wireframing -> Mock-up -> Prototype -> Final Version
+    </p>
+      <strong>Wireframing Reference:</strong> <a href="https://balsamiq.com/"
+    target="_blank">Balsamiq WebSite - UI Design</a><br /><br />
+      <strong>Wireframing Reference:</strong> <a href="https://sneakpeekit.com/"
+    target="_blank">Sneakpeekit WebSite - UI Design Printoffs</a><br /><br />
+      <strong>Mock-up Reference:</strong> <a href="https://dribbble.com/"
+    target="_blank">Dribble WebSite - mock-up designs for inspiration</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="4_navbar"></a>
+    <hr />
+    <H3>&#35;4 - Navbar &amp; Grid System</H3>
+    <p>
+      Layout is one of the biggest issues when building a site.
+    </p>
+    <strong>Navigation Bar Reference:</strong> <a href="https://www.codeply.com/go/KBp1GvyXjd"
+  target="_blank">Codeply WebSite</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="5_resources"></a>
+    <hr />
+    <H3>&#35;5 - Bootstrap Resources</H3>
+    <p>
+      Bootsnipp is an element gallery for web designers and web developers.
+    </p>
+    <strong>Bootstrap Gallary:</strong> <a href="https://bootsnipp.com/"
+  target="_blank">Bootsnipp WebSite</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="6_index"></a>
+    <hr />
+    <H3>&#35;6 - Z Index Positioning (stacking order)</H3>
+    <p>
+      Z-index used to lower an image behind and is an advanced CSS concept.
+    </p>
+    <strong>Z-index Property:</strong> <a href="https://www.w3schools.com/cssref/pr_pos_z-index.asp"
+  target="_blank">Z-Index Property</a><br /><br />
+    <strong>Reference:</strong> <a href="IPND_css_pdfs/Stacking Order Flowchart v2.1.pdf"
+  target="_blank">Z-Index Flow Chart</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="7_media"></a>
+    <hr />
+    <H3>&#35;7 - CSS Media Queries</H3>
+    <p>
+      Layout is one of the biggest issues when building a site.
+    </p>
+    <strong>Navigation Bar Reference:</strong> <a href="https://www.codeply.com/go/KBp1GvyXjd"
+    target="_blank">Codeply WebSite</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="8_refactor"></a>
+    <hr />
+    <H3>&#35;8 - Code Refactoring Principles</H3>
+    <p>
+      Mobile-First is here. So, make your website responsive and it will work everywhere.
+    </p>
+
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+
+
+
+    <hr />
+  </div>
+</body>
+
+</html>
