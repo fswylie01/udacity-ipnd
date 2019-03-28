@@ -39,6 +39,6 @@
 insert certification here
 <hr>
   
-<a href="https://www.udacity.com/">Udacity, Inc.</a></br><br>
+<a href="https://www.udacity.com/">Udacity, Inc.</a></br><br><hr><br>
 
-<a href = "mailto: fswylie@icloud.com">Send me an email if you have questions.</a>
+<a href = "mailto: fswylie@icloud.com">Contact Me</a>
