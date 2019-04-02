@@ -22,14 +22,13 @@
 <p>---</p> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
-
-<p>Documentation covering Unix Shell commands.<p>
-<a href="#">View Shell Notes</a></br>
-
 <p>Python coding basics from functions to style/structure.<p>
 <a href="#">View Python I Notes</a></br>
 
-<a href="#">View Adventure Game Project</a>
+<a href="#">View Adventure Game Project</a></br>
+
+<p>Additional Training: Unix Shell Workshop<p>
+<a href="#">View Shell Notes</a>
 
 <p>---</p> 
 
