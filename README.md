@@ -17,15 +17,19 @@
 
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">View Animal Card Project</a> 
 
-<h4>Unix Shell Workshop</h4>
-<p>Get<p>
+<h4>Project 2: Intro to Python - Adventure Game</h4>
+
+<p>Documentation covering Unix Shell commands.<p>
 <a href="#">View Shell Notes</a></br>
 
-<h4>Project 2: Intro to Python - Adventure Game</h4>
-<p>Get<p>
+<p>Python coding basics from functions to style/structure.<p>
 <a href="#">View Python Notes</a></br>
 
 <a href="#">View Adventure Game</a> 
+
+
+
+
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
