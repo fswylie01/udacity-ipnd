@@ -17,7 +17,7 @@
 <p>Built using HTML and CSS, this project demonstrates knowledge of basic website design.<p>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/html_css_notes/html_home.html">View HTML-CSS Notes</a></br>
 
-<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">View Animal Card Project</a>
+<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">View Animal Card</a>
 
 <p>---</p> 
 
@@ -27,7 +27,7 @@
 
 <a href="#">View Adventure Game Project</a></br>
 
-<p>Additional Training: Unix Shell Workshop<p>
+<p><strong>Additional Training: </strong>Unix Shell Workshop<p>
 <a href="#">View Shell Notes</a>
 
 <p>---</p> 
