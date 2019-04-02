@@ -2,7 +2,7 @@
 
 <h4>Course Start Date: 01/29/2019</h4>
 
-<p><strong>Description: </strong>The course covers basic concepts for HTML, CSS, Python, Unix Shell, and Javascript.</p>
+<p><strong>Description: </strong>This introductory programming course covers HTML & CSS design tools along with Python & Javascript programming languages. The Unix (Bash Shell) scripting langauage is also covered in detail. All course notes and assignments have been included below for future reference.</p>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View My IPND Notes (covers all sections)</a>
 <p>----------</p>
