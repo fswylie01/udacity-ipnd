@@ -1,6 +1,7 @@
 <h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Introduction to Programming Nanodegree</a></h1>
 
-<h4>Course Start Date: 01/29/2019</h4>
+<h4>Start Date: 01/29/2019</h4>
+<h4>Completion Date: In-progress</h4>
 
 <p><strong>Description: </strong>This introductory programming course covers HTML & CSS design tools along with Python & Javascript programming languages. The Unix (Bash Shell) scripting langauage is also covered in detail. All course notes and assignments have been included below for future reference.</p>
 
