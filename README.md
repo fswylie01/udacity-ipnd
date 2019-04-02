@@ -3,7 +3,7 @@
 <p><strong>Start Date: </strong> 01/29/2019</p>
 <p><strong>Finish Date: </strong> In-progress</p>
 
-<p><strong>Course Description: </strong>This introductory programming course covers HTML and CSS design tools along with Python and Javascript programming languages. The Unix (Bash Shell) scripting langauage is also covered in detail. All course notes and assignments have been included below for reference.</p>
+<p><strong>Course Description: </strong>This introductory programming course covers HTML and CSS design tools along with Python and Javascript programming languages. The Unix Shell (Bash) scripting langauage is also covered in detail. All course notes and assignments have been included below for reference.</p>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View My IPND Notes (covers all sections)</a>
 <p>----------</p>
@@ -29,7 +29,7 @@
 <a href="#">View Adventure Game Project</a></br>
 
 <p><strong>Additional Training: </strong>Unix Shell Workshop<p>
-<a href="#">View Shell Notes</a>
+<a href="#">View Unix Shell Notes - Mac Terminal</a>
 <p>---</p> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
