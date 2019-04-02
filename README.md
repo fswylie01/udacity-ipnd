@@ -17,9 +17,13 @@
 
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">View Animal Card Project</a> 
 
+<h4>Unix Shell Workshop</h4>
+<p>Get<p>
+<a href="#">View Shell Notes</a></br>
+
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
-<a href="#">View Python Notes (includes Shell Notes)</a></br>
+<a href="#">View Python Notes</a></br>
 
 <a href="#">View Adventure Game</a> 
 
