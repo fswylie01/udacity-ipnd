@@ -11,11 +11,15 @@
 <p>Compile lesson notes using HTML and get some early feedback during the first week.</p>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html" target="_blank">View HTML Notes</a>
 
+<p>---</p>
+
 <h4>Project 1: Intro to CSS - Animal Trading Card Project</h4>
 <p>Built using HTML and CSS, this project demonstrates knowledge of basic website design.<p>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/html_css_notes/html_home.html">View HTML-CSS Notes</a></br>
 
-<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">View Animal Card Project</a> 
+<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">View Animal Card Project</a>
+
+<p>---</p> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 
@@ -25,7 +29,9 @@
 <p>Python coding basics from functions to style/structure.<p>
 <a href="#">View Python Notes</a></br>
 
-<a href="#">View Adventure Game</a> 
+<a href="#">View Adventure Game</a>
+
+<p>---</p> 
 
 
 
