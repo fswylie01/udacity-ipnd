@@ -1,7 +1,10 @@
 <h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Introduction to Programming Nanodegree</a></h1>
-<h4>Start Date: 01/29/2019</h4>
 
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View IPND Notes - coming soon</a>
+<h4>Course Start Date: 01/29/2019</h4>
+
+<p><strong>Description: </strong>The course covers basic concepts for HTML, CSS, Python, Unix Shell, and Javascript.</p>
+
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View My IPND Notes (covers all sections)</a>
 
 <p>----------</p>
 
