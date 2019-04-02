@@ -8,7 +8,7 @@
 <p>Assignments for my Udacity Intro to Programming Nanodegree (IPND)</p>
 
 <h4>Lab 1: Intro to HTML</h4>
-<p>Compile lesson notes using HTML and get some early feedback during the first week.</p>
+<p>Compiled lesson notes using HTML to get feedback.</p>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html" target="_blank">View HTML Notes</a>
 
 <p>---</p>
@@ -27,27 +27,25 @@
 <a href="#">View Shell Notes</a></br>
 
 <p>Python coding basics from functions to style/structure.<p>
-<a href="#">View Python Notes</a></br>
+<a href="#">View Python I Notes</a></br>
 
-<a href="#">View Adventure Game</a>
+<a href="#">View Adventure Game Project</a>
 
 <p>---</p> 
 
-
-
-
-
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
-<a href="#">View Python Notes - coming soon</a></br>
+<a href="#">View Python II Notes</a></br>
 
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Game - coming soon</a> 
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Rock, Paper, Scissors Project</a>
+
+<p>---</p>  
 
 <h4>Project 4: Intro to JavaScript (JS) - Pixel Art Maker</h4>
 <p>Get<p>
-<a href="#">View JS Notes - coming soon</a></br>
+<a href="#">View JS Notes</a></br>
 
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Pixel Art Maker - coming soon</a>
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Pixel Art Maker Project</a>
   
 <hr>
 insert certification here
