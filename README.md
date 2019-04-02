@@ -19,7 +19,7 @@
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Get<p>
-<a href="#">View Python Notes</a></br>
+<a href="#">View Python Notes (includes Shell Notes)</a></br>
 
 <a href="#">View Adventure Game</a> 
 
