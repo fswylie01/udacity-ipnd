@@ -41,7 +41,7 @@
 
 <h4>Project 4: Intro to JavaScript (JS) - Pixel Art Maker</h4>
 <p>Get<p>
-<a href="#">View JS Notes</a></br>
+<a href="#">View JavaScript Notes</a></br>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Pixel Art Maker Project</a>
   
