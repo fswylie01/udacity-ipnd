@@ -28,8 +28,8 @@
 
 <a href="#">View Adventure Game Project</a></br>
 
-<p><strong>Additional Training: </strong>Unix Shell Workshop<p>
-<a href="#">View Unix Shell Notes - Mac Terminal</a>
+<p><strong>Additional Training: </strong>Unix (BASH) Shell Workshop<p>
+<a href="#">View Unix (BASH) Shell Notes</a>
 <p>---</p> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
