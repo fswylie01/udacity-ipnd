@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: "verdana";
+    }
+
+    mark {
+      color: #3b5998;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
+    /* unvisited link */
+    a:link {
+      color: #3b5998;
+    }
+
+    /* visited link */
+    a:visited {
+      color: #3b5998;
+    }
+
+    /* mouse over link */
+    a:hover {
+      color: red;
+    }
+
+    /* selected link */
+    a:active {
+      color: green;
+    }
+
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 250px;
+      background-color: #f1f1f1;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 16px;
+      text-decoration: none;
+    }
+
+    .sidebar a.active {
+      background-color: black;
+      color: white;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background-color: #555;
+      color: white;
+    }
+
+    div.content {
+      margin-left: 250px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+
+    .content {
+      background-color: white;
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .sidebar a {
+        float: left;
+      }
+
+      div.content {
+        margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+        text-align: center;
+        float: none;
+      }
+    }
+  </style>
+
+  <!-- Load an icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <a id="#top"></a>
+
+  <div class="sidebar">
+    <a href="#"><i class="fa fa-fw fa-home"></i> HOME</a>
+    <a class="active" href="#">Unix (Bash) Shell</a>
+  </div>
+
+  <div class="content">
+    <h3>Unix (Bash) Shell Fundamentals</h3>
+
+    <ul>
+      <li><a href="#1_intro">&#35;1 - What's the Unix (Bash) Shell?</a></li>
+      <li><a href="#2_terminal">&#35;2 - Terminal Window &amp; Bash Shell Prompt</a></li>
+      <li><a href="#3_echo">&#35;3 - Terminal Command (echo)</a></li>
+      <li><a href="#4_var">&#35;4 - Shell &amp; Environment Variables</a></li>
+      <li><a href="#5_nav1">&#35;5 - Navigating Directories I (ls, cd)</a></li>
+      <li><a href="#6_nav2">&#35;6 - Navigating Directories II (pwd)</a></li>
+      <li><a href="#7_param">&#35;7 - Parameters &amp; Options (ls -l)</a></li>
+      <li><a href="#8_files">&#35;8 - Organizing Files (mkdir, mv)</a></li>
+      <li><a href="#9_down">&#35;9 - Downloading (curl)</a></li>
+      <li><a href="#10_view">&#35;10 - Viewing Files (cat, less)</a></li>
+      <li><a href="#11_remove">&#35;11 - Removing Files &amp; Directories (rm, rmdir)</a></li>
+      <li><a href="#12_search">&#35;12 - Searching &amp; Pipes (grep, wc)</a></li>
+      <li><a href="#13_start">&#35;13 - Startup Files (i.e. .bash_profile) - config files</a></li>
+      <li><a href="#14_alias">&#35;14 - Aliases - Creating Shortcuts</a></li>
+      <li><a href="#15_resources">&#35;15 - Shell Resources &amp; Review of Commands</a></li>
+    </ul>
+
+    <a name="1_intro"></a>
+    <hr />
+    <h3>&#35;1 - What's the Unix (Bash) Shell?</h3>
+    <p>
+      Bash is a command processor that typically runs in a text window where the user types commands
+      that cause actions. Bash can also read and execute commands from a file, called a shell script.
+      Like all Unix shells, it supports filename globbing (wildcard matching), piping, here documents,
+      command substitution, variables, and control structures for condition-testing and iteration.
+    </p>
+    <p>
+      As a data scientist, you will use command line for various tasks, and we believe it is extremely
+      important to become familiar with the command line interface (CLI). Working with the CLI gives
+      you good understanding of the inner workings of the computer.
+    </p>
+    <img src="../../images/shell_images/intro_b0.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="intro_b0.png"><br /><br />
+    <img src="../../images/shell_images/intro_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="intro_b1.png"><br /><br />
+    <img src="../../images/shell_images/intro_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="intro_b2.png"><br /><br />
+    <img src="../../images/shell_images/intro_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="intro_b3.png"><br /><br />
+    <img src="../../images/shell_images/intro_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="intro_b4.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="2_terminal"></a>
+    <hr />
+    <h3>&#35;2 - Terminal Window &amp; Bash Shell Prompt</h3>
+    <p>
+      The Terminal window is just an interface to the Bash Shell.
+    </p>
+    <img src="../../images/shell_images/terminal_b1.png" style="border-style:none; width: 60%;
+    margin-left: 30px;"  alt="terminal_b1.png"><br />
+    <p>
+      The Terminal window can be compared to a web browser interface to your favorite website.
+    </p>
+    <img src="../../images/shell_images/terminal_b2.png" style="border-style:none; width: 60%;
+    margin-left: 30px;"  alt="terminal_b2.png"><br />
+    <p>
+      Near the end of the video, there's a screenshot of the tool (bash rc generator) I used to construct the
+      long and complex prompt.
+    </p>
+    <a href="http://bashrcgenerator.com"
+    target="_blank">Bash RC Generator Website</a><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="3_echo"></a>
+    <hr />
+    <h3>&#35;3 - Terminal Command (echo)</h3>
+    <p>
+    "echo" is a fundamental command found in most operating systems that offer a command line.
+    </p>
+    <img src="../../images/shell_images/echo_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="echo_b1.png"><br /><br />
+    <img src="../../images/shell_images/echo_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="echo_b2.png"><br /><br />
+    <img src="../../images/shell_images/echo_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="echo_b3.png"><br /><br />
+    <img src="../../images/shell_images/echo_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="echo_b4.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="4_var"></a>
+    <hr />
+    <h3>&#35;4 - Shell &amp; Environment Variables</h3>
+    <p>
+    Standard UNIX variables are split into two categories, environment variables and shell variables.
+    In broad terms, shell variables apply only to the current instance of the shell and are used to
+    set short-term working conditions; environment variables have a farther reaching significance, and
+    those set at login are valid for the duration of the session. By convention, environment variables
+    have UPPER CASE and shell variables have lower case names.
+    </p>
+    <img src="../../images/shell_images/var_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="var_b1.png"><br /><br />
+    <img src="../../images/shell_images/var_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="var_b2.png"><br /><br />
+    <img src="../../images/shell_images/var_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="var_b3.png"><br /><br />
+    <img src="../../images/shell_images/var_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="var_b4.png"><br /><br />
+    <img src="../../images/shell_images/var_b5.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="var_b5.png"><br /><br />
+    <img src="../../images/shell_images/var_b6.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="var_b6.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="5_nav1"></a>
+    <hr />
+    <H3>&#35;5 - Navigating Directories I - (ls, cd)</H3>
+    <p>
+      One of the things that you can do with the shell is navigate around the files and folders on
+      your computer. You already do this with the graphical shell on your computer—now it's time to
+      learn how to do it with the text-based shell.
+    </p>
+    <img src="../../images/shell_images/nav1_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav1_b1.png"><br /><br />
+    <img src="../../images/shell_images/nav1_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav1_b2.png"><br /><br />
+    <img src="../../images/shell_images/nav1_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav1_b3.png"><br /><br />
+    <img src="../../images/shell_images/nav1_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav1_b4.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+
+    <a name="6_nav2"></a>
+    <hr />
+    <H3>&#35;6 - Navigating Directories II - (pwd)</H3>
+    <p>
+    The pwd tool prints the name of the present/current working directory.
+    </p>
+    <img src="../../images/shell_images/nav2_b0.png" style="border-style:none; width: 60%;
+    margin-left: 30px;"  alt="nav2_b0.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b1.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b2.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b3.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b4.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b5.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b5.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b6.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b6.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b7.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b7.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b8.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b8.png"><br /><br />
+    <img src="../../images/shell_images/nav2_b9.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="nav2_b9.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="7_param"></a>
+    <hr />
+    <H3>&#35;7 - Parameters &amp; Options (ls -l)</H3>
+    <p>
+    Some commands have parameters or options to help you get more information or change the
+    default behavior of those commands.
+    </p>
+    <img src="../../images/shell_images/param_b1.png" style="border-style:none; width: 60%;
+    margin-left: 30px;"  alt="param_b1.png"><br /><br />
+    <img src="../../images/shell_images/param_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="param_b2.png"><br /><br />
+    <img src="../../images/shell_images/param_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="param_b3.png"><br /><br />
+    <img src="../../images/shell_images/param_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="param_b4.png"><br /><br />
+    <img src="../../images/shell_images/param_b5.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="param_b5.png"><br /><br />
+    <img src="../../images/shell_images/param_b6.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="param_b6.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="8_files"></a>
+    <hr />
+    <H3>&#35;8 - Organizing Files (mkdir, mv)</H3>
+    <p>
+    Moving files around and making new directories.
+    </p>
+    <img src="../../images/shell_images/files_b1.png" style="border-style:none; width: 60%;
+    margin-left: 30px;"  alt="files_b1.png"><br /><br />
+    <img src="../../images/shell_images/files_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="files_b2.png"><br /><br />
+    <img src="../../images/shell_images/files_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="files_b3.png"><br /><br />
+    <img src="../../images/shell_images/files_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="files_b4.png"><br /><br />
+    <img src="../../images/shell_images/files_b5.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="files_b5.png"><br /><br />
+    <img src="../../images/shell_images/files_b6.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="files_b6.png"><br /><br />
+    <img src="../../images/shell_images/files_b7.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="files_b7.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="9_down"></a>
+    <hr />
+    <H3>&#35;9 - Downloading (curl)</H3>
+    <p>
+    The curl commmand can be used to download a file from the Web. By default, it will download the
+    file and display the contents in the terminal. For example:
+    </p>
+    <img src="../../images/shell_images/down_b1.png" style="border-style:none; width: 60%;
+    margin-left: 30px;"  alt="down_b1.png"><br /><br />
+    <img src="../../images/shell_images/down_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="down_b2.png"><br /><br />
+    <img src="../../images/shell_images/down_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="down_b3.png"><br /><br />
+    <img src="../../images/shell_images/down_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="down_b4.png"><br /><br />
+    <img src="../../images/shell_images/down_b5.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="down_b5.png"><br /><br />
+    <img src="../../images/shell_images/down_b6.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="down_b6.png"><br /><br />
+    <img src="../../images/shell_images/down_b7.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="down_b7.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="10_view"></a>
+    <hr />
+    <H3>&#35;10 - Viewing Files (cat, less)</H3>
+    <p>
+    Use the commands (cat, less) to view content.
+    </p>
+    <img src="../../images/shell_images/view_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="view_b1.png"><br /><br />
+    <img src="../../images/shell_images/view_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="view_b2.png"><br /><br />
+    <img src="../../images/shell_images/view_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="view_b3.png"><br /><br />
+    <img src="../../images/shell_images/view_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="view_b4.png"><br /><br />
+    <img src="../../images/shell_images/view_b5.png" style="border-style:none; width: 60%;
+    margin-left: 30px;"  alt="view_b5.png"><br /><br />
+    <img src="../../images/shell_images/view_b6.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="view_b6.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="11_remove"></a>
+    <hr />
+    <H3>&#35;11 - Removing Files &amp; Directories (rm, rmdir)</H3>
+    <p>
+    Use the commands (rm, rmdir) to permanently delete content.
+    </p>
+    <img src="../../images/shell_images/remove_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="remove_b1.png"><br /><br />
+    <img src="../../images/shell_images/remove_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="remove_b2.png"><br /><br />
+    <img src="../../images/shell_images/remove_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="remove_b3.png"><br /><br />
+    <img src="../../images/shell_images/remove_b4.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="remove_b4.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="12_search"></a>
+    <hr />
+    <H3>&#35;12 - Searching &amp; Pipes (grep, wc)</H3>
+    <p>
+    You can use commands (grep, wc) to search content in files.
+    </p>
+    <img src="../../images/shell_images/search_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="search_b1.png"><br /><br />
+    <img src="../../images/shell_images/search_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="search_b2.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="13_start"></a>
+    <hr />
+    <H3>&#35;13 - Startup Files (.bash_profile) - config files</H3>
+    <p>
+    This course only scratched the surface of modifying config files, but little was done here.
+    </p>
+    <p>
+    Note: An example of a config file is provided below.
+    </p>
+    <img src="../../images/shell_images/start_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="start_b1.png"><br /><br />
+    <img src="../../images/shell_images/start_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="start_b2.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="14_alias"></a>
+    <hr />
+    <H3>&#35;14 - Aliases - Creating Shortcuts</H3>
+    <p>
+    Alias command allows you to create shorter names to customize the shell.
+    </p>
+    <p>
+    Note: The alias ll='ls -la' command
+    </p>
+    <img src="../../images/shell_images/alias_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="alias_b1.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+
+    <a name="15_resources"></a>
+    <hr />
+    <H3>&#35;15 - Shell Resources &amp; Review of Commands</H3>
+    <p>
+    We've only just scratched the surface of what the shell can do, but hopefully you now have an idea
+    of how useful and powerful a tool it can be. If you're serious about becoming a professional developer
+    (or just a more powerful user), here are some great resources you may want to check out at some point:
+    </p>
+    <ul>
+      <li><a href="https://www.bash.academy/" target="_blank">The Bash Academy</a></li>
+      <li><a href="http://www.tldp.org/LDP/Bash-Beginners-Guide/html/" target="_blank">Bash Beginners Guide</a></li>
+      <li><a href="http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html" target="_blank">Bash Programming HOWTO</a></li>
+    </ul>
+    <ps
+      Review Questions:
+    </p>
+    <img src="../../images/shell_images/resources_b1.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="resources_b1.png"><br /><br />
+    <img src="../../images/shell_images/resources_b2.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="resources_b2.png"><br /><br />
+    <img src="../../images/shell_images/resources_b3.png" style="border-style:none; width: 80%;
+    margin-left: 30px;"  alt="resources_b3.png"><br />
+
+    <br />
+    <a href="#top">Go To Top</a>
+    <br /><br />
+
+    <hr />
+  </div>
+</body>
+
+</html>
