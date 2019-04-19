@@ -29,7 +29,7 @@
 <a href="#">Project 2: Adventure Game</a></br>
 
 <p><strong>Additional Training: </strong>Unix (BASH) Shell Workshop<p>
-<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_2/shell_notes/shell_home.html">View Unix (BASH) Shell Notes</a>
+<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_2/shell_notes/shell_home.html">Unix (BASH) Shell Notes</a>
 <p>---</p> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
