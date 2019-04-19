@@ -5,17 +5,6 @@
 
 <p><strong>Course Description: </strong>This introductory programming course covers HTML and CSS design tools along with Python and Javascript programming languages. The Unix Shell (Bash) scripting langauage is also covered in detail. All course notes and assignments have been included below for reference.</p>
 
-<p>Key Programming Areas Covered:</p>
-HTML
-CSS
-Python
-JavaScript
-Document Object Model (DOM)
-Object-Oriented Programming (OOP)
-Git
-GitHub
-Unix shell
-
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View My IPND Notes (all sections)</a>
 <p>----------</p>
 
