@@ -34,7 +34,7 @@
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
-<a href="#">View Python II Notes</a></br>
+<a href="#">View All Python Notes</a></br>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Rock, Paper, Scissors Project</a>
 <p>---</p>  
