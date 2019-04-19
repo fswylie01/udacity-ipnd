@@ -24,7 +24,7 @@
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
 <p>Python coding basics from functions to style/structure.<p>
-<a href="#">View Python I Notes</a></br>
+<a href="#">View Python Notes</a></br>
 
 <a href="#">View Adventure Game Project</a></br>
 
@@ -34,7 +34,6 @@
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
 <p>Get<p>
-<a href="#">View All Python Notes</a></br>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View Rock, Paper, Scissors Project</a>
 <p>---</p>  
