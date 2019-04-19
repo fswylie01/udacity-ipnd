@@ -12,7 +12,7 @@
 
 <h4>Lab 1: Intro to HTML</h4>
 <p>Compiled lesson notes using HTML to get feedback.</p>
-<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html" target="_blank">HTML Notes</a>
+<a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html" target="_blank">Lab 1: HTML Notes</a>
 <p>---</p>
 
 <h4>Project 1: Intro to HTML & CSS - Animal Trading Card</h4>
