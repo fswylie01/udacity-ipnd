@@ -23,7 +23,7 @@
 <p>---</p> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
-<p>In this project, a simple version of an old-fashioned text-based adventure game was created. It covers python coding basics from functions to style/structure.<p>
+<p>In this project, a simple version of an old-fashioned text-based adventure game was created.  It covers python coding basics from functions to style/structure.<p>
 <a href="#">Python Notes</a></br>
 
 <a href="#">Project 2: Adventure Game</a></br>
