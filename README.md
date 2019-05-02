@@ -33,7 +33,7 @@
 <p>---</p> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
-<p>Get<p>
+<p>In this project, I was able to apply my Python and object-oriented programming skills to build a program that plays the game of Rock Paper Scissors. The program has classes that represent the game and its players. The computer players have different strategies, as well as a human player class that lets a human play the game against the computer.<p>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Project 3: Rock, Paper, Scissors</a>
 <p>---</p>  
