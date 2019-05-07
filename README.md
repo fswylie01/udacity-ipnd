@@ -3,7 +3,7 @@
 <p><strong>Start Date: </strong> 01/29/2019</p>
 <p><strong>Finish Date: </strong> In-progress</p>
 
-<p><strong>Course Description: </strong>This introductory programming course covers HTML and CSS design tools along with Python and Javascript programming languages. The Unix Shell (Bash) scripting langauage is also covered in detail. All course notes and assignments have been included below for reference.</p>
+<p><strong>Course Description: </strong>This programming course covers HTML and CSS design tools along with Python and Javascript programming languages. Python and Object-Oriented programming skills will be utilized to generate two games. The Unix Shell (Bash) scripting langauage is also covered in detail. All course notes and assignments have been included below for reference.</p>
 
 <a  target="_blank" href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">View My IPND Notes (all sections)</a>
 <p>----------</p>
