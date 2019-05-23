@@ -39,7 +39,7 @@
 <p>---</p>  
 
 <h4>Project 4: Intro to JavaScript (JS) - Pixel Art Maker</h4>
-<p>For this project, I developed a single-page web app that allows users to draw pixel art on a customizable canvas<p>
+<p>For this project, I developed a single-page web app that allows users to draw pixel art on a customizable canvas.<p>
 <a href="#">JavaScript Notes</a></br>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Project 4: Pixel Art Maker</a>
