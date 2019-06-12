@@ -1,7 +1,7 @@
 <h1><a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Introduction to Programming Nanodegree (IPND)</a></h1>
 
 <p><strong>Start Date: </strong> 01/29/2019</p>
-<p><strong>Finish Date: </strong> 06/16/2019</p>
+<p><strong>Finish Date: </strong> 07/16/2019</p>
 
 <p><strong>Course Description: </strong>This course covers HTML and CSS design tools along with Python and Javascript programming languages. Python and Object-Oriented programming skills will be utilized to generate two fun games. The Unix Shell (Bash) scripting langauage is also covered in detail. All course notes and assignments have been included below for reference.</p>
 
