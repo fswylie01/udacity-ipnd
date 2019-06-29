@@ -42,4 +42,3 @@
   
 <hr>
 insert certification here
-<hr>
