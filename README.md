@@ -7,7 +7,7 @@
 <p>----------</p>
 
 <h4>Lab 1: Intro to HTML</h4>
-<p>Compiled lesson notes using HTML to get feedback.</p>
+<p>Summarized lesson notes using HTML.</p>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Lab_1/html_notes.html" target="_blank">Lab 1: HTML Notes</a>
 <p>---</p>
 
