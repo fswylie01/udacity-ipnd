@@ -44,5 +44,3 @@
 <hr>
 insert certification here
 <hr>
-  
-<a href="https://www.udacity.com/">Udacity, Inc.</a></br><br><hr><br>
