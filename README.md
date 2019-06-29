@@ -3,10 +3,8 @@
 <p><strong>Start Date: </strong> 01/29/2019</p>
 <p><strong>Finish Date: </strong> 07/16/2019</p>
 
-<p><strong>Course Description: </strong>This course covers HTML and CSS design tools along with Python and Javascript programming languages. Python and Object-Oriented programming skills will be utilized to generate two fun games. The Unix Shell (Bash) scripting langauage is also covered in detail. All course notes and assignments have been included below for reference.</p>
+<p><strong>Course Description: </strong>This course covers HTML and CSS design tools along with Python and Javascript programming languages. Python and Object-Oriented programming skills will be utilized to generate two fun games. The Unix Shell (Bash) scripting langauage is also covered in detail. All course notes and assignments are provided below.</p>
 <p>----------</p>
-
-<p>Assignments for my Udacity Intro to Programming Nanodegree (IPND)</p>
 
 <h4>Lab 1: Intro to HTML</h4>
 <p>Compiled lesson notes using HTML to get feedback.</p>
@@ -18,6 +16,8 @@
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/html_css_notes/html_home.html">HTML-CSS Notes</a></br>
 
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">Project 1: Animal Card</a>
+
+<a href="#">JavaScript Notes</a></br>
 <p>---</p> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
@@ -38,7 +38,6 @@
 
 <h4>Project 4: Intro to JavaScript (JS) - Pixel Art Maker</h4>
 <p>For this project, I developed a single-page web app that allows users to draw pixel art on a customizable canvas.<p>
-<a href="#">JavaScript Notes</a></br>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Project 4: Pixel Art Maker</a>
   
