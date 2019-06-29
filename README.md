@@ -17,7 +17,7 @@
 
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">Project 1: Animal Card</a>
 
-<strong>Additional Training: </strong><a href="#">JavaScript Notes</a></br>
+<strong>Additional Training: </strong><a href="#">JavaScript Notes</a>
 <p>---</p> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
