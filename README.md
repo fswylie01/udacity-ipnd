@@ -12,7 +12,7 @@
 <p>---</p>
 
 <h4>Project 1: Intro to HTML & CSS - Animal Trading Card</h4>
-<p>Built using HTML & CSS, this project demonstrates knowledge of basic website design.<p>
+<p>Used HTML / CSS to implement a basic website design.<p>
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/html_css_notes/html_home.html">HTML-CSS Notes</a></br>
 
 <a href="https://htmlpreview.github.io/?https://github.com/fswylie01/udacity-ipnd/blob/master/Project_1/Animal_Card_Project/card_v2.html">Project 1: Animal Card</a>
@@ -21,7 +21,7 @@
 <p>---</p> 
 
 <h4>Project 2: Intro to Python - Adventure Game</h4>
-<p>In this project, a simple version of an old-fashioned text-based adventure game was created.  It covers python coding basics from functions to style/structure.<p>
+<p>Built an old-fashioned text-based adventure game using Python.<p>
 <a href="#">Python Notes</a></br>
 
 <a href="#">Project 2: Adventure Game</a></br>
@@ -30,13 +30,13 @@
 <p>---</p> 
 
 <h4>Project 3: Intro to Python - Rock, Paper, Scissors</h4>
-<p>For this project, I was able to apply my Python and object-oriented programming skills to build a program/game (Rock Paper Scissors). The program has classes that represent the game and its players. The players have different strategies, as well as a human player class that lets a human play the game against the computer.<p>
+<p>Using Python, I created a rock-paper-scissors text game, where a user can play against four different computer player classes, each implementing a different strategy.<p>
 
-<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Project 3: Rock, Paper, Scissors</a>
+<a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Project 3: Rock-Paper-Scissors</a>
 <p>---</p>  
 
 <h4>Project 4: Intro to JavaScript (JS) - Pixel Art Maker</h4>
-<p>For this project, I developed a single-page web app that allows users to draw pixel art on a customizable canvas.<p>
+<p>Developed a single-page web app that allows users to draw pixel art on a customizable canvas.<p>
 
 <a href="https://www.udacity.com/course/intro-to-programming-nanodegree--nd000">Project 4: Pixel Art Maker</a>
   
